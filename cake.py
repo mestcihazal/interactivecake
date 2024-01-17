@@ -19,8 +19,8 @@ async def connect():
       # api_key='<API-KEY>',
 	  # Replace "<API-KEY-ID>" (including brackets) with your machine's api key id
       # api_key_id='<API-KEY-ID>'
-      api_key='bulc1si6wbier0wvf0w6uolwzewij5jl',
-      api_key_id='4609020a-f2a4-4885-853b-253006e42fd9'
+      api_key='',
+      api_key_id=''
     )
     return await RobotClient.at_address('cake-main.35s324h8pp.viam.cloud', opts)
 
